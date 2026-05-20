@@ -28,10 +28,10 @@ function FaqSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10 sm:mb-14">
           <p className="text-[10px] sm:text-xs font-bold tracking-[3px] uppercase text-[#2563EB] mb-2">
-            FAQs
+FAQs
           </p>
 
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-dark font-poppins">
+<h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text- font-poppins">
             Frequently Asked Questions
           </h2>
         </div>
