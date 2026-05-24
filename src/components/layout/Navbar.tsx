@@ -112,9 +112,9 @@ function Navbar() {
         </div>
         {/* Right side */}
         <div className="flex items-center gap-2">
-          <button className="bg-btn-gradient text-white font-semibold px-6 py-2.5 rounded-full shadow-md hover:opacity-90 transition-opacity">
+          <Button className="bg-btn-gradient text-white font-semibold p-5 rounded-full shadow-md hover:opacity-90 transition-opacity">
             Book Now
-          </button>
+          </Button>
         </div>
       </div>
     </header>

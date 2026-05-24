@@ -1,72 +1,212 @@
-import React from 'react'
+import React from "react";
+import instragram from "../../assets/icons/skill-icons_instagram.png";
+import linkedin from "../../assets/icons/skill-icons_linkedin.png";
+import whatsapp from "../../assets/icons/whatsapp-icon.png";
+import facebook from "../../assets/icons/facebook.png";
+import phoneIcon from "../../assets/icons/gg_phone.png";
+import emailIcon from "../../assets/icons/picon_mail.png";
+import locationIcon from "../../assets/icons/duo-icons_location.png";
 
 function Footer() {
   return (
-    <div>
-        <footer className="bg-darknavy text-gray-400 px-12 pt-14 pb-6">
-  <div className="grid grid-cols-4 gap-10 mb-10">
- 
+    <footer className="bg-[#031A5E] text-white">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12 py-10">
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-16">
+          
+          <div>
+            <h2 className="text-2xl font-semibold leading-none">
+              Skills Lab
+            </h2>
 
-    <div>
-      <div className="text-lg font-black text-white mb-0.5"><span className="text-primary">Skills Lab</span></div>
-      <div className="text-[11.5px] text-gray-500 font-medium mb-3.5">Consultancy</div>
-      <p className="text-[12.5px] text-gray-500 leading-7 mb-5">Your trusted partner for global education and career success.</p>
-      <div className="flex gap-2.5">
-        <div className="w-8 h-8 rounded-full bg-[#1a1a4e] flex items-center justify-center text-[13px] cursor-pointer hover:bg-primary transition-colors">f</div>
-        <div className="w-8 h-8 rounded-full bg-[#1a1a4e] flex items-center justify-center text-[13px] cursor-pointer hover:bg-primary transition-colors">w</div>
-        <div className="w-8 h-8 rounded-full bg-[#1a1a4e] flex items-center justify-center text-[12px] cursor-pointer hover:bg-primary transition-colors">📷</div>
-        <div className="w-8 h-8 rounded-full bg-[#1a1a4e] flex items-center justify-center text-[12px] cursor-pointer hover:bg-primary transition-colors">🐦</div>
-        <div className="w-8 h-8 rounded-full bg-[#1a1a4e] flex items-center justify-center text-[13px] cursor-pointer hover:bg-primary transition-colors">in</div>
-      </div>
-    </div>
- 
+            <p className="text-sm text-gray-300 mt-2 leading-6 max-w-[220px]">
+              Consultancy <br />
+              Your trusted partner for global education and career success.
+            </p>
 
-    <div>
-      <div className="text-[13px] font-extrabold text-white uppercase tracking-wider mb-4">Quick Links</div>
-      <div className="flex flex-col gap-2">
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Home</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">About Us</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Our Services</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Consultants</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Training</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Contact</a>
-      </div>
-    </div>
- 
-    <div>
-      <div className="text-[13px] font-extrabold text-white uppercase tracking-wider mb-4">Our Services</div>
-      <div className="flex flex-col gap-2">
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Study Abroad</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Work Abroad</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Visa Assistance</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">Career Counseling</a>
-        <a href="#" className="text-[12.5px] text-gray-500 hover:text-white transition-colors">SOP Writing</a>
-      </div>
-    </div>
+            <div className="flex items-center gap-3 mt-6">
+              <a
+                href="#"
+                className="w-9 h-9 flex items-center justify-center rounded-full hover:scale-105 transition-all duration-300"
+              >
+                <img
+                  src={facebook}
+                  alt="Facebook"
+                  className="w-full h-full object-contain"
+                />
+              </a>
 
-    <div>
-      <div className="text-[13px] font-extrabold text-white uppercase tracking-wider mb-4">Contact Info</div>
-      <div className="flex flex-col gap-2.5">
-        <div className="flex items-start gap-2 text-[12.5px] text-gray-500 leading-relaxed">
-          <span>📞</span> +880 1234 567890
+              <a
+                href="#"
+                className="w-9 h-9 flex items-center justify-center rounded-full hover:scale-105 transition-all duration-300"
+              >
+                <img
+                  src={whatsapp}
+                  alt="WhatsApp"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+
+              <a
+                href="#"
+                className="w-9 h-9 flex items-center justify-center rounded-full hover:scale-105 transition-all duration-300"
+              >
+                <img
+                  src={instragram}
+                  alt="Instagram"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+
+              <a
+                href="#"
+                className="w-9 h-9 flex items-center justify-center rounded-full hover:scale-105 transition-all duration-300"
+              >
+                <img
+                  src={linkedin}
+                  alt="LinkedIn"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wide">
+              Quick Links
+            </h3>
+
+            <ul className="mt-5 space-y-3 text-sm text-gray-300">
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  About Us
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Our Services
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Consultants
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Training
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wide">
+              Our Services
+            </h3>
+
+            <ul className="mt-5 space-y-3 text-sm text-gray-300">
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Study Abroad
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Work Abroad
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Visa Assistance
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  Career Counseling
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-white transition-all">
+                  SOP Writing
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wide">
+              Contact Info
+            </h3>
+
+            <div className="mt-5 space-y-4 text-sm text-gray-300">
+              
+              <div className="flex items-start gap-3">
+                <img
+                  src={phoneIcon}
+                  alt="Phone"
+                  className="w-5 h-5 mt-[2px]"
+                />
+
+                <p>+880 1234 567890</p>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <img
+                  src={emailIcon}
+                  alt="Email"
+                  className="w-5 h-5 mt-[2px]"
+                />
+
+                <p className="break-all sm:break-normal">
+                  info@skillslab.com
+                </p>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <img
+                  src={locationIcon}
+                  alt="Location"
+                  className="w-5 h-5 mt-[2px]"
+                />
+
+                <p className="leading-6 max-w-[250px]">
+                  House 12, Road 5, Dhanmondi,
+                  <br />
+                  Dhaka 1205, Bangladesh.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="flex items-start gap-2 text-[12.5px] text-gray-500 leading-relaxed">
-          <span>✉</span> info@skillslab.com
-        </div>
-        <div className="flex items-start gap-2 text-[12.5px] text-gray-500 leading-relaxed">
-          <span>🏠</span> House 12, Road 5, Dhanmondi,<br />Dhaka 1205, Bangladesh.
+
+        <div className="border-t border-white/20 mt-10 pt-5">
+          <p className="text-xs sm:text-sm text-gray-300 text-center">
+            © 2024 Skills Lab Consultancy. All rights reserved.
+          </p>
         </div>
       </div>
-    </div>
- 
-  </div>
- 
-  <div className="border-t border-[#1e1e4e] pt-5 text-center text-[12px] text-gray-600">
-    © 2024 Skills Lab Consultancy. All rights reserved.
-  </div>
-</footer>
-    </div>
-  )
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
