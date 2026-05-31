@@ -16,7 +16,7 @@ import { Link } from "react-router";
 function Navbar() {
   const navigationLinks = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About Us" },
+    { href: "/about-us", label: "About Us" },
     { href: "/services", label: "Our Services" },
     { href: "/consultants", label: "Consultants" },
     { href: "/training", label: "Training" },
