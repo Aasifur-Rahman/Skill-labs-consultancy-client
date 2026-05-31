@@ -1,6 +1,6 @@
 
 import App from "@/App";
-import AboutUs from "@/pages/Home/AboutUs";
+import AboutUs from "@/pages/AboutUs";
 import Home from "@/pages/Home/Home";
 import { createBrowserRouter } from "react-router";
 

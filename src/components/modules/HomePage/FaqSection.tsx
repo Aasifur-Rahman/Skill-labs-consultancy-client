@@ -1,37 +1,37 @@
-import React, { useState } from 'react'
-import faqImage from '../../../assets/images/Faq.png'
+import { useState } from "react";
+import faqImage from "../../../assets/images/Faq.png";
 
 function FaqSection() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0)
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
     {
-      q: 'What are the visa requirements?',
-      a: 'Visa requirements vary by destination country and program type. Our consultants will guide you through all required documents, financial proofs, and language test scores specific to your chosen destination.'
+      q: "What are the visa requirements?",
+      a: "Visa requirements vary by destination country and program type. Our consultants will guide you through all required documents, financial proofs, and language test scores specific to your chosen destination.",
     },
     {
-      q: 'How long does the processing take?',
-      a: 'Processing time varies by country and visa type. Typically it ranges from 2–8 weeks. We keep you updated at every step of the process.'
+      q: "How long does the processing take?",
+      a: "Processing time varies by country and visa type. Typically it ranges from 2–8 weeks. We keep you updated at every step of the process.",
     },
     {
-      q: 'Do you provide scholarships?',
-      a: 'Yes, we help identify scholarship and fee waiver opportunities available at partner universities for eligible students.'
+      q: "Do you provide scholarships?",
+      a: "Yes, we help identify scholarship and fee waiver opportunities available at partner universities for eligible students.",
     },
     {
-      q: 'What tests are required?',
-      a: 'Most destinations require IELTS or equivalent English proficiency tests. Some programs may also require GMAT, GRE, or SAT depending on the level and institution.'
-    }
-  ]
+      q: "What tests are required?",
+      a: "Most destinations require IELTS or equivalent English proficiency tests. Some programs may also require GMAT, GRE, or SAT depending on the level and institution.",
+    },
+  ];
 
   return (
     <section className="bg-[#f5f5f5] py-12 sm:py-16 px-4 sm:px-6 lg:px-12 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10 sm:mb-14">
           <p className="text-[10px] sm:text-xs font-bold tracking-[3px] uppercase text-[#2563EB] mb-2">
-FAQs
+            FAQs
           </p>
 
-<h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text- font-poppins">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text- font-poppins">
             Frequently Asked Questions
           </h2>
         </div>
@@ -52,15 +52,15 @@ FAQs
                   </span>
 
                   <span className="text-xl text-gray-400 flex-shrink-0">
-                    {openFaq === i ? '−' : '+'}
+                    {openFaq === i ? "−" : "+"}
                   </span>
                 </button>
 
                 <div
                   className={`grid transition-all duration-300 ease-in-out ${
                     openFaq === i
-                      ? 'grid-rows-[1fr] opacity-100'
-                      : 'grid-rows-[0fr] opacity-0'
+                      ? "grid-rows-[1fr] opacity-100"
+                      : "grid-rows-[0fr] opacity-0"
                   }`}
                 >
                   <div className="overflow-hidden">
@@ -99,7 +99,7 @@ FAQs
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default FaqSection
+export default FaqSection;
